@@ -1,33 +1,32 @@
 ## Overview
-Systems programmer specializing in high-performance C++ and applied cryptography, with experience building secure,
-low-latency backends from the hardware level up.
+Systems programmer specializing in high-performance C++ and applied cryptography. I build from the hardware up—engineering custom cryptographic kernels, high-concurrency backends, and performance tooling tuned for specific CPU microarchitectures.
 
-### What I Build
-I build systems from the hardware up — custom cryptographic kernels, high-concurrency socket backends, and performance tooling tuned to specific CPU microarchitectures.  
-My projects tend to start with a question about how something works at a low level and end with benchmark numbers.
+## Featured Projects
+| Project | Performance / Impact | Tech Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **[Myelin](https://github.com/MaythFall/Myelin)** | **Sub-12ns latency.** $O(n^2) \to O(n)$ packing logic. | C++23, boost::pfr | Stable |
+| **[Divalia](https://github.com/MaythFall/Divalia)** | **350 MB/s throughput.** Saturates hardware via SIMD pipelining. | C++20, AVX2, AES-NI | Stable |
+| **[Conclave](https://github.com/MaythFall/Conclave)** | **O(1) event-loop.** Custom binary protocol; zero-knowledge model. | C++20, epoll, FastAPI | Finished |
+| **Noiseblind** | **9x speedup.** Multi-threaded obfuscation via work-stealing. | C++20, AVX2, CUDA | Finalizing |
+| **[Axon](https://github.com/MaythFall/axon)** | Core systems library used across the ecosystem. | C++17/20/23 | Active |
 
+<sub> *Noiseblind is private to maintain academic integrity. Available upon request* </sub>
 
-## Projects
-| Project | Details | Tech | Status |
-|---------|---------|------|--------|
-| [Divalia](https://github.com/MaythFall/Divalia) | High-perf experimental encryption framework, 350 MB/s on Ryzen 9 | C++20, AVX2, AES-NI, Argon2 | Active |
-| [Conclave](https://github.com/MaythFall/Conclave) | E2EE chat with custom binary protocol & epoll backend | C++20, epoll, FastAPI, AES-GCM | Finished |
-| [CalorMap](https://github.com/MaythFall/CalorMap) | Byte entropy visualizer for cryptographic analysis | C++20, std::barrier, LUT | Beta |
-| Noiseblind | File obfuscation algorithm (Senior Capstone) | C++20, std::barrier, AVX2, CUDA, Argon2, ... | Finalizing |
-| Library Management System | SQLite3 database for a fictional library built as a group project | Python, Flask, Gemini API, SQLite3 | Finished |
-| Predictive Text Model | N-Gram predictive text model built from scratch | Python | Finished |
-| [Medulla](https://github.com/MaythFall/Medulla) | C++ network library for academic lab | C++, Socket | Finished |
-| [API Cache Demo](https://github.com/MaythFall/api-cache-demo) | A small experiment with Redis caching | Python, FastAPI, Redis, PostgreSQL, SQLAlchemy | Finished |
+<details>
+<summary><b>View Academic & Experimental Projects</b></summary>
 
-### Notes
-- Noiseblind is private to maintain academic integrity. Available upon request
-- Some projects were not developed on Github and are in the process of being ported over
+- **CalorMap:** Entropy visualization via 256-entry LUT. (C++20)
+- **Medulla:** Network library for academic lab environments. (C++)
+- **Predictive Text Model:** N-Gram model built from scratch. (Python)
+- **Library Management System:** SQLite3 & Gemini API integration. (Python)
+- **API Cache Demo:** Redis/PostgreSQL caching experiment. (FastAPI)
+</details>
 
 ## Skills
-Languages: C, C++17/20, Python, SQL
-Core: SIMD/AVX2, multi-threading, Linux epoll, POSIX, custom binary protocols
-Security: AES-GCM, Argon2, Libsodium, Web Crypto API
-Tools: CMake, Git, perf, Redis, PostgreSQL, FastAPI
+* **Languages:** C, C++ (17/20/23), Python, SQL
+* **Systems:** SIMD (AVX2), Multi-threading, Linux epoll, Cache-Line Alignment, POSIX
+* **Security:** AES-GCM, Argon2, Libsodium, GPG/Code Signing
+* **Tools:** CMake, Git, perf, Linux/WSL, Redis, FastAPI, Dear ImGui
 
 ## Availability
-St. Charles, IL | Graduating May 2026 | Open to new grad systems and backend engineering roles
+**St. Charles, IL** | **Graduating May 2026** | **Seeking New Grad Systems & Backend Roles**
