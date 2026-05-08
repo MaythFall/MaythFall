@@ -10,8 +10,6 @@ Systems programmer specializing in high-performance C++ and applied cryptography
 | **[Noiseblind](https://github.com/MaythFall/Noiseblind)** | **9x speedup.** Multi-threaded obfuscation via work-stealing. | C++20, AVX2, CUDA | Finalizing |
 | **[Axon](https://github.com/MaythFall/axon)** | Core systems library used across the ecosystem. | C++17/20/23 | Active |
 
-<sub> *Noiseblind is private to maintain academic integrity. Available upon request* </sub>
-
 <details>
 <summary><b>View Academic & Experimental Projects</b></summary>
 
