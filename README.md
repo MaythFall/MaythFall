@@ -7,7 +7,7 @@ Systems programmer specializing in high-performance C++ and applied cryptography
 | **[Myelin](https://github.com/MaythFall/Myelin)** | **Sub-12ns latency.** $O(n^2) \to O(n)$ packing logic. | C++23, boost::pfr | Stable |
 | **[Divalia](https://github.com/MaythFall/Divalia)** | **350 MB/s throughput.** Saturates hardware via SIMD pipelining. | C++20, AVX2, AES-NI | Stable |
 | **[Conclave](https://github.com/MaythFall/Conclave)** | **O(1) event-loop.** Custom binary protocol; zero-knowledge model. | C++20, epoll, FastAPI | Finished |
-| **Noiseblind** | **9x speedup.** Multi-threaded obfuscation via work-stealing. | C++20, AVX2, CUDA | Finalizing |
+| **[Noiseblind](https://github.com/MaythFall/Noiseblind)** | **9x speedup.** Multi-threaded obfuscation via work-stealing. | C++20, AVX2, CUDA | Finalizing |
 | **[Axon](https://github.com/MaythFall/axon)** | Core systems library used across the ecosystem. | C++17/20/23 | Active |
 
 <sub> *Noiseblind is private to maintain academic integrity. Available upon request* </sub>
