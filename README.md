@@ -27,4 +27,4 @@ Systems programmer specializing in high-performance C++ and applied cryptography
 * **Tools:** CMake, Git, perf, Linux/WSL, Redis, FastAPI, Dear ImGui
 
 ## Availability
-**St. Charles, IL** | **Graduated May 2026** | **Seeking New Grad Systems & Backend Roles**
+**Malden, MA** | **Graduated May 2026** | **Software Engineer 1 at Raytheon**
